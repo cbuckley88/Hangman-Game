@@ -1,0 +1,158 @@
+
+body{
+  background-color: black;
+}
+
+.headerText{
+  text-align: center;
+  font-size: 100px;
+  color: pink;
+  font-family: 'Rye', cursive;
+}
+
+.subText{
+  text-align: center;
+  font-size: 60px;
+  color: lightblue;
+  font-family: 'Rock Salt', cursive;
+  transform: rotate(-15deg);
+  margin-top: -30px;
+  text-decoration: underline;
+  text-shadow: 2px 4px limegreen;
+}
+
+.pinkText{
+  color: pink;
+}
+
+.blueText{
+  color: lightblue;
+}
+
+.container{
+  border: 10px dotted white;
+  height: 530px;
+  width: 1000px;
+  background-color: black;
+  margin-top: 5%;
+}
+
+#userText{
+  color: pink;
+}
+
+#stickman{
+  color: white;
+  border: white dashed 2px;
+  width: 440px;
+  height: 470px;
+  display: inline-block;
+  margin: 20px;
+  margin-left: 10px;
+}
+
+#stickman .stickManBuild {
+  max-width: 436px;
+  margin-top: 75px;
+}
+
+
+.rowLeft{
+  border-left: 10px dotted white;
+  border-right: 10px dotted white;
+}
+
+.rowRight{
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  height: 520px;
+  font-family: 'Architects Daughter', cursive;
+  float: right;
+  border-left: 10px dotted white;
+    
+}
+
+#myLives{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+  padding-top: 20px;
+}
+
+.underscore, .space{
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  margin: 6px;
+}
+
+
+.hangmanPhrase{
+  color: lightgreen;
+}
+
+hr{
+  background-color: white;
+  width: 50%;
+  margin-top: -2%;
+  background-color: silver;
+}
+
+#guessedLetters{
+  color: red;
+  font-family: arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pressAnyKey{
+  padding-top: 0;
+
+}
+ .pressAnyKey{
+        -webkit-animation: color-change 1s infinite;
+        -moz-animation: color-change 1s infinite;
+        -o-animation: color-change 1s infinite;
+        -ms-animation: color-change 1s infinite;
+        animation: color-change 1s infinite;
+    }
+
+    @-webkit-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        50% { color: red; }
+        25% { color: green; }
+        50% { color: yellow; }
+    }
+    @-moz-keyframes color-change {
+       0% { color: red; }
+        50% { color: blue; }
+        25% { color: red; }
+        50% { color: green; }
+        50% { color: yellow; }
+    }
+ 
+    @-o-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        25% { color: red; }
+        50% { color: green; }
+        50% { color: yellow; }
+    }
+    @keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        25% { color: red; }
+        50% { color: green; }
+        50% { color: yellow; }
+    }

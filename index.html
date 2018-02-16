@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    <link rel="shortcut icon"  href="https://s9.postimg.org/w2vz6kaqn/man.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="assets/css/style.css">
+</head> 
+<body>
+  <header>
+    <h1 class="headerText">HANGMAN</h1>
+    <h2 class="subText">Let's do this</h2>
+  </header>
+  <div class="container">
+    <div class="row rowLeft">
+      <div class="col-sm colLeft"> </div>
+    </div>
+
+<!-- STICK FIGURE HERE -->    
+
+
+<!-- <div id="stickman">
+        <img>
+      </div>
+  
+   -->
+
+    <div id="stickman">
+      <img class="stickManBuild base" src="https://s9.postimg.org/wmt39497z/hang_Base.png" alt="hangman base">
+      <img class="stickManBuild post" src="https://s9.postimg.org/w144czyq7/hang_Post.png" alt="hangman post">
+      <img class="stickManBuild top" src="https://s9.postimg.org/n63a2gmsf/hang_Top.png"  alt="hangman top">
+      <img class="stickManBuild head" src="https://s9.postimg.org/leab7kiv3/hang_Head.png" alt="hangman head">
+      <img class="stickManBuild body" src="https://s9.postimg.org/3yg56emmn/hang_Body.png" alt="hangman body">
+      <img class="stickManBuild arms" src="https://s9.postimg.org/jxysq08en/hang_Arms.png" alt="hangman arms">
+      <img class="stickManBuild leg" src="https://s9.postimg.org/7klyiiijz/hang_Leg_Right.png" alt="hangman leg">
+      <img class="stickManBuild fail" src="https://s9.postimg.org/o17qoezm7/fail.png" alt="hangman fail">
+    </div>
+
+
+      <div class="row rowRight">
+        <div class="col-sm colRight">
+          <h3 class="pressAnyKey">Press any key to start !</h3>
+          <hr>
+           <h3><span id="userText"></span> </h3>
+          <br> 
+          <div id="dash-container" class="dash-container">
+            <h3 id="myLives" class="pinkText">Number of Guesses Remaining: 8</h3>
+          </div>
+          
+          <!-- <h3> guessCount </h3> -->
+          <h3 class="blueText">Letters Already Guessed : </h3>
+          <!-- alreadyGuessed-->
+           <h5 id="guessedLetters"> </h5>
+          <!-- <button id="reset">Play again</button> -->
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+  </body>
+</html>
